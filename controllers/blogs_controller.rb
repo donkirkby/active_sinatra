@@ -1,5 +1,5 @@
 get '/blogs' do
-  @blogs = Blog.all
+  @blogs = Blog.order(:name)
   @blogs.to_json
 end
 

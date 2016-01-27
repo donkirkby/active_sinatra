@@ -1,6 +1,6 @@
 get '/blogs/:blog_id/posts' do
   blog = Blog.find_by_id(params[:blog_id])
-  @posts = blog.posts
+  @posts = blog.posts.order(:title)
   @posts.to_json
 end
 
