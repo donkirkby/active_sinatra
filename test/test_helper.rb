@@ -9,13 +9,7 @@ class ActiveSupport::TestCase
   include ActiveRecord::TestFixtures
   include ActiveRecord::TestFixtures::ClassMethods
   
-  class << self
-    def fixtures(*fixture_set_names)
-      self.fixture_path = 'test/fixtures'
-      super *fixture_set_names
-    end
-  end
-
+  self.fixture_path = 'test/fixtures'
   self.use_transactional_fixtures = true
   self.use_instantiated_fixtures  = false
 end
