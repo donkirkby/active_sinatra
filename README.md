@@ -12,11 +12,11 @@ To run the web server:
 
 Then hit the server in your browser at these addresses:
 
-* http://localhost:4567
-* http://localhost:4567/blogs
-* http://localhost:4567/blogs/413685242
-* http://localhost:4567/blogs/413685242/posts
-* http://localhost:4567/posts/807550412
+* [http://localhost:4567](http://localhost:4567)
+* [http://localhost:4567/blogs](http://localhost:4567/blogs)
+* [http://localhost:4567/blogs/413685242](http://localhost:4567/blogs/413685242)
+* [http://localhost:4567/blogs/413685242/posts](http://localhost:4567/blogs/413685242/posts)
+* [http://localhost:4567/posts/807550412](http://localhost:4567/posts/807550412)
 
 To set up the tests:
 
