@@ -2,7 +2,6 @@ language: ruby
 ruby:
   - "2.2.2"
 install:
-  - gem install bundler
   - bundle install
   - rake db:test:prepare
 script: rake
