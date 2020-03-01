@@ -8,5 +8,5 @@ gem 'sinatra', '2.0.2'
 gem 'sinatra-activerecord', '2.0.13'
 gem 'activerecord', "4.1.14.1"
 gem 'rack-test', '0.6.3'
-gem 'rack', '2.0.1'
+gem 'rack', '2.0.8'
 gem 'rake', '10.4.2'
