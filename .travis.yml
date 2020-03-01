@@ -1,0 +1,8 @@
+language: ruby
+ruby:
+  - "2.6"
+install:
+  - gem install bundler
+  - bundle install
+  - rake db:test:prepare
+script: rake
