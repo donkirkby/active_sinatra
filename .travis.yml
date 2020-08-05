@@ -1,6 +1,6 @@
 language: ruby
 ruby:
-  - "2.2.2"
+  - "2.7.0"
 install:
   - bundle install
   - rake db:test:prepare
