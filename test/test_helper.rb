@@ -10,6 +10,5 @@ class ActiveSupport::TestCase
   include ActiveRecord::TestFixtures::ClassMethods
   
   self.fixture_path = 'test/fixtures'
-  self.use_transactional_fixtures = true
   self.use_instantiated_fixtures  = false
 end
