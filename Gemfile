@@ -6,7 +6,7 @@ ruby '2.7.0'
 gem 'sqlite3', '1.4.2'
 gem 'sinatra', '2.0.8.1'
 gem 'sinatra-activerecord', '2.0.18'
-gem 'activerecord', "6.0.3.2"
+gem 'activerecord', "6.0.3.5"
 gem 'rack-test', '1.1.0'
 gem 'rack', '2.2.3'
 gem 'rake', '13.0.1'
