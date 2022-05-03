@@ -4,7 +4,7 @@ ruby '2.7.0'
 # To install all these gems, run "gem install bundler", then "bundle install".
 
 gem 'sqlite3', '1.4.2'
-gem 'sinatra', '2.0.8.1'
+gem 'sinatra', '2.2.0'
 gem 'sinatra-activerecord', '2.0.18'
 gem 'activerecord', "6.0.3.5"
 gem 'rack-test', '1.1.0'
