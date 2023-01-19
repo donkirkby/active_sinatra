@@ -18,7 +18,7 @@ GEM
     minitest (5.17.0)
     mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
-    rack (2.2.3.1)
+    rack (2.2.6.2)
     rack-protection (2.2.3)
       rack
     rack-test (1.1.0)
@@ -44,7 +44,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord (= 6.1.7.1)
-  rack (= 2.2.3.1)
+  rack (= 2.2.6.2)
   rack-test (= 1.1.0)
   rake (= 13.0.1)
   sinatra (= 2.2.3)
