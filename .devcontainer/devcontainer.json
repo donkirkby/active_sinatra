@@ -1,0 +1,7 @@
+{
+  "name": "active-sinatra",
+
+  // For contents, look in prebuild folder
+  "image": "donkirkby/active-sinatra-devcontainer:v0.2.1",
+  "postCreateCommand": ["apt", "install", "-y", "git"]
+}

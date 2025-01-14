@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
-ruby '2.7.0'
+ruby '3.3.6'
 
 # To install all these gems, run "gem install bundler", then "bundle install".
 
-gem 'sqlite3', '1.4.2'
-gem 'sinatra', '2.2.3'
-gem 'sinatra-activerecord', '2.0.18'
-gem 'activerecord', "6.1.7.1"
-gem 'rack-test', '1.1.0'
-gem 'rack', '2.2.8.1'
-gem 'rake', '13.0.1'
+gem 'sqlite3', '1.4.4'
+gem 'sinatra', '4.1.1'
+gem 'sinatra-activerecord', '2.0.28'
+gem 'activerecord', "7.1.0"
+gem 'rack-test', '2.2.0'
+gem 'rack', '3.1.8'
+gem 'rake', '13.2.1'
