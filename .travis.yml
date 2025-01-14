@@ -1,8 +1,0 @@
-language: ruby
-ruby:
-  - "2.7.0"
-install:
-  - gem install bundler:1.16.1
-  - bundle install
-  - rake db:test:prepare
-script: rake

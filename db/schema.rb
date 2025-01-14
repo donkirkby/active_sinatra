@@ -10,8 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2016_01_26_221132) do
-
+ActiveRecord::Schema[7.1].define(version: 2016_01_26_221132) do
   create_table "blogs", force: :cascade do |t|
     t.string "name"
     t.text "tagline"
