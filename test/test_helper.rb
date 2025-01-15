@@ -9,6 +9,6 @@ class ActiveSupport::TestCase
   include ActiveRecord::TestFixtures
   include ActiveRecord::TestFixtures::ClassMethods
   
-  self.fixture_path = 'test/fixtures'
+  self.fixture_paths = ['test/fixtures']
   self.use_instantiated_fixtures  = false
 end

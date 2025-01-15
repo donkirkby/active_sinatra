@@ -16,18 +16,7 @@ RUN apt-get -y update &&\
     apt-add-repository -y ppa:rael-gc/rvm && \
     apt-get -y update &&\
     apt-get -y install \
-    nano \
-    vim \
-    wget \
-    less \
-    unzip \
-    rlwrap \
-    libaio-dev \
-    tzdata \
     bash-completion \
-    lsb-release \
-    curl \
-    gpg \
     rvm \
     &&\
     apt-get clean &&\
