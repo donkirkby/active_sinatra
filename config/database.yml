@@ -1,6 +1,8 @@
 development:
-  adapter: sqlite3
-  database: db/development.sqlite3
+  adapter: oracle_enhanced
+  database: LOCAL_DATABASE
+  username: <%= ENV['QAI_DB_USERNAME'] %>
+  password: <%= ENV['QAI_DB_PASSWORD'] %>
 
 test:
   adapter: sqlite3

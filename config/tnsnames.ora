@@ -1,0 +1,10 @@
+
+# Local developer database
+LOCAL_DATABASE =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (COMMUNITY = tcp.world)(PROTOCOL = TCP)(Host = db)(Port = 1521))
+      (ADDRESS = (COMMUNITY = tcp.world)(PROTOCOL = TCP)(Host = localhost)(Port = 1521))
+    )
+    (CONNECT_DATA = (SERVICE_NAME = CFE))
+  )
